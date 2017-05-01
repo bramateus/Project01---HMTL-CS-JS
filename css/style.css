@@ -1,0 +1,569 @@
+
+h3 {
+ font-family: Raleway;  
+}
+
+
+
+.header {
+  margin-top: -815px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.li a {
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.li a:hover {
+  color: red;
+  padding: 10px 10px 10px 10px;
+}
+  
+.sydney {
+  margin-top: -10px;
+  color: #fff;
+  font-size: 32px;
+}
+
+.h1 {
+  font-family: sans-serif;
+}
+
+.bg {
+  padding-top: 1px;
+  width: 100%;
+  height: 850px;
+  background: url("../img/bg.jpg") no-repeat;
+  -moz-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+
+  
+  
+  
+}
+
+.bg2 {
+  padding-top: 1px;
+  width: 100%;
+  height: 850px;
+  background: url("../img/bg1-black.jpg") no-repeat;
+  -moz-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+ 
+}
+
+.conteudo {
+ 
+  height: 778px;
+  text-align: center;
+  padding: 240px 0 0 0;
+}
+
+.top {
+  position: absolute;
+  top: 20px;
+  
+}
+
+
+
+.conteudo h2 {
+  color: #fff;
+  font-size: 55px;
+ 
+}
+
+.conteudo h2:after {
+    content: "";
+	display: block;
+	width: 300px;
+	height: 1px;
+	background: #D65050;
+	margin: 18px auto;
+}
+
+.conteudo blockquote {
+  font-family: "arial";
+  font-size: 28px;
+  color: #fff;
+  padding-top: 8px;
+  padding-bottom: 25px;
+}
+
+.btn {
+  border-style: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: white;
+  border-radius: 5px;
+  border-color: #D65050;
+  background-color: #D65050;
+  padding: 18px 38px;
+
+  
+}
+
+.btn:hover {
+  color: #D65050;
+  background-color: transparent;
+  border-color:#D65050;
+  border-style: ridge;
+  padding: 16px 36px;
+  transition: background 0.4s linear 0s, color 0.2s linear 0s;
+  
+}
+
+/* SERVIÇOS */
+
+.servicos h2{
+  padding: 80px ;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #443F3F;
+
+  
+}
+
+.servicos h2:after{
+  content: "";
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #D65050;
+  margin: 10px auto;
+  
+}
+
+.servicos_ul li{
+  text-align: center;
+}
+
+
+.servicos ul li img{
+  padding: 20px;
+  border: 1px solid #D65050;
+  border-radius: 100%;
+
+}
+
+.servicos blockquote{
+  font-family: "Raleway";
+  text-align: center;
+  color: #443F3F;
+  font-size: 20px;
+  padding: 20px 0 15px 0;
+}
+
+.servicos cite{
+  color: #767676;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.7;
+  
+}
+
+.div_btn {
+  text-align: center;
+}
+
+.btn-servico {
+  margin-top: 40px;
+  margin-bottom: 100px;
+
+}
+
+
+/* Extra */
+
+.quebra {
+  border-top: 1px solid;
+  border-color: #E0E0E0;
+  background: #F2F2F2;
+  height: 700px;
+}
+
+.extras h2 {
+  font-family: Raleway;
+  font-style: normal;
+  font-variant: normal;
+  margin-top: 105px;
+  font-size: 32px;
+  text-transform: uppercase;
+  
+}
+
+.extras h2:after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #D65050;
+  margin: 10px auto;
+  
+}
+
+.extras ul {
+  padding: 60px 0 0 0;
+}
+
+
+.extras ul li {
+  display: inline-block;
+  padding-top: 30px;
+  
+  
+}
+
+.extras ul img {
+  
+  padding: 20px;
+  border: 1px solid #D65050;
+  border-radius: 100%;
+  float: left;
+}
+
+.extras ul blockquote{
+  font-family: "Raleway";
+  text-align: center;
+  color: #443F3F;
+  font-size: 18px;
+  padding: 0px 0 12px 0;
+  text-align: left;
+  
+}
+
+.extras cite {
+  color: #767676;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.7;
+}
+
+
+.smartphone {
+  border: none;
+  border-radius: none;
+  padding: none;
+}
+
+
+/* Paralax */
+
+.paralax {
+  background-image: url(../img/bg1-black.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  max-height: 100%;
+}
+
+.paralax h2 {
+  font-family: Raleway;
+  font-style: normal;
+  font-variant: normal;
+  color: #D65050;
+  text-align: center;
+  font-size: 32px;
+  padding-top: 50px;
+  text-transform: uppercase;
+}
+
+.paralax h2:after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #D65050;
+  margin: 10px auto;
+  
+}
+
+.paralax ul{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.paralax ul li{
+  display: inline-block;
+  margin-bottom: 50px;
+  margin-right: 12px;
+  margin-left: 12px;
+  background:  rgba(0, 0, 0, .4);
+  text-align: center;
+  width: 525px;
+  height: 145px;
+  
+}
+
+.paralax h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 30px 0 30px 0;
+  font-size: 18px;
+  color: #767676;
+  font-weight: bold;
+}
+
+.btn_transparent {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #D65050;
+  background-color: transparent;
+  border-color:#D65050;
+  border-style: ridge;
+  border-radius: 5%;
+  padding: 16px 36px;
+  margin-top: -5px;
+ 
+  
+}
+
+.btn_transparent:hover {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #fff;
+  background-color: #D65050;
+  border-color:#D65050;
+  border-style: solid;
+  border-radius: 5%;
+  padding: 16px 36px;
+  transition: background 0.4s linear 0s, color 0.2s linear 0s;
+}
+
+
+/* Team */
+
+.team h2 {
+  padding: 80px 0 55px 0 ;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #443F3F;
+  
+}
+
+.team h2:after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #D65050;
+  margin: 10px auto 0 auto;
+}
+
+
+.team ul {
+  text-align: center;
+  margin-right: 45px;
+  
+}
+
+.team ul li {
+  display: inline-block;
+  margin-left: 53px;
+
+ 
+}
+
+.team ul li div {
+ 
+  
+ 
+  
+  
+}
+
+
+.team blockquote {
+  
+  font-family: "Raleway";
+  text-align: center;
+  font-weight: bold;
+  color: #D65050;
+  font-size: 18px;
+  padding: 15px 0 5px 0;
+  text-align: center;
+  
+}
+
+.team cite {
+  color: #767676;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.7;
+}
+
+.pagination {
+      display: inline-block;
+  
+}
+
+.pagination span {
+  width: 12px;
+  height: 12px;
+   border: 2px solid #d65050;
+}
+
+.radius {
+  
+  width: 12px;
+  height: 12px;
+  border: 2px solid #d65050;
+  text-align: center;
+  width: 12px;
+  height: 12px;
+ 
+  transition: background 0.4s linear 0s, color 0.2s linear 0s;
+}
+
+
+
+.branco {
+  height: 1000px;
+}
+
+
+/* Awards */
+
+
+.awards {
+  background: #d65050;
+  margin-top: 150px;
+  
+}
+
+
+.awards ul li{
+  display: inline-block;
+}
+
+.cont_bar {
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
+
+.cont_bar p {
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 15px 0 30px 0;
+}
+
+.cont_bar h1 {
+  font-weight: bold;
+  font-size: 45px;
+  color: #fff;
+}
+
+
+
+/* Second Paralax */
+
+.paralax_second {
+  background-image: url(../img/bg-black.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  max-height: 100%;
+  text-align: center;
+  height: 655px;
+}
+
+.paralax_second h2 {
+  font-family: Raleway;
+  font-style: normal;
+  font-variant: normal;
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  padding-top: 110px;
+  text-transform: uppercase;
+}
+
+.paralax_second h2:after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #D65050;
+  margin: 10px auto 0 auto;
+  
+}
+
+.paralax_second p {
+  padding-top: 50px;
+  color: #fff;
+  font-style: italic;
+  max-width: 90ch;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 25px;
+  line-height: 25px;
+  
+}
+
+.paralax_second img {
+  
+  border-radius: 50% 50%;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.paralax_second blockquote {
+  padding-top: 15px;
+  padding-bottom: 4px;
+  font-size: 17px;
+  color: #fff;
+  font-weight: bold;
+  
+}
+
+.paralax_second cite {
+  font-style: normal;
+  color: #fff;
+  font-size: 14px;
+  
+  
+}
+
+
+/* Rodapé */
+
+.rodape {
+  height: 50px;
+  background: #1c1c1c;
+}
+
+.rodape p {
+  padding: 15px 0 0 50px;
+  color: #666666;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
